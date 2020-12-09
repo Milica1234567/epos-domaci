@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveti</title>
+    <link rel="stylesheet" href="styles/s3.css">
+</head>
+<body>
+
+    <script src="js/javascript.js"></script>
+
+    <div class="naslov">
+        <div>
+            <img id="slika_naslov1" src="slike/pediatrician.png">
+        </div>
+        <div class="naslov1">
+            MedicaMea
+        </div>
+        <div>
+            <img id="slika_naslov2" src="slike/stetoskop_srce.png">
+        </div>
+
+    </div>
+    <div class="slike">
+        <div class="slika1">
+            
+            <div class="meni"><img id="house" src="slike/house.png" alt="pocetna"><div class="opis">
+                <a href="index.html"><button class="dugme_meni">Početna</button></a></div></div>
+        </div>
+        <div class="slika2">
+            
+            <div class="meni"><img id="calendar" src="slike/calendar.png" alt="zakazivanje"><div class="opis">
+                <a href="index4.html"><button class="dugme_meni">Zakazivanje</button></a> </div></div>
+        </div>
+        <div class="slika3">
+           
+            <div class="meni"> <img id="info" src="slike/info.png" alt="saveti roditeljima"><div class="opis">
+                <a href="index3.html"><button class="dugme_meni">Saveti roditeljima</button></a> </div></div>
+        </div>
+        <div class="slika4">
+           
+            <div class="meni"><img id="kontakt" src="slike/kontakt.png" alt="kontakt"><div class="opis">
+                <a href="index2.html"><button class="dugme_meni">Kontakt</button></a></div></div>
+        </div>
+
+    </div>
+    <div id="naslov2"><h2>Korisni saveti roditeljima</h2></div>
+
+    <div id="veliki">
+        
+        <div class="slika">
+            <img id="ishrana_slika" src="slike/diet.png" alt="">
+            <div class="prelaz"><button id="dugme_ishrana" onclick="saveti()"> Ishrana</button></div>
+        </div>
+        <div class="slika"> 
+            <img id="prehlada_slika" src="slike/fever.png" alt="">
+            <div class="prelaz"> <button id="dugme_prehlada" onclick="temperatura()">Temperatura</button></div>
+        </div>
+        <div class="slika">
+            <img id="mozak_slika" src="slike/brain.png" alt="">
+            <div class="prelaz"> <button id="dugme_mozak" onclick="tehnologija()">Kako tehnologija utiče na razvoj dečijeg mozga</button> </div>
+        </div>
+        <div class="slika">
+            <img id="upala_slika" src="slike/thermometer.png" alt=""> 
+            <div class="prelaz"> <button id="dugme_upala" onclick="upala()">Upala uha kod dece</button> </div>
+        </div>
+    </div>
+    
+    <div class="prozor" id="prozor-1">
+        <div class="prelaz1"></div>
+        <div class="sadrzaj">
+          <div class="x" onclick="saveti()">&times;</div>
+          <h1>Ishrana</h1>
+          <p>Detetu starijem od godinu dana potrebna su 3 glavna obroka i 2 užine u toku dana. 
+              Poželjno je da dete prvi obrok dobije u toku prvih sat vremena nakon buđenja, idealno bi bilo između 7 i 9h. 
+              Ostale obroke planirajte sa razmacim od po 2-3h.
+            Budite strpljivi, nudite detetu hranu novih tekstura i ukusa, ponudite više puta istu namirnicu dok je dete ne prihvati.
+          </p>
+        </div>
+      </div>
+
+      <div class="prozor" id="prozor-2">
+        <div class="prelaz1"></div>
+        <div class="sadrzaj">
+          <div class="x" onclick="temperatura()">&times;</div>
+          <h1>Temperatura</h1>
+          <p>Sta je temperatura? Povišena temperatura je normalna reakcija organizma koja ima za cilj da aktivira imuni sistem da se bori protiv infekcija.
+            "Prava" povišena telesna temperatura je 38C i viša.
+          </p>
+          <p>Veoma je važno hidrirati decu kada imaju temperaturu. Razlog za HITNU posetu pedijatru je teško disanje vašeg deteta</p>
+        </div>
+      </div>
+
+      <div class="prozor" id="prozor-3">
+        <div class="prelaz1"></div>
+        <div class="sadrzaj">
+          <div class="x" onclick="tehnologija()">&times;</div>
+          <h1>Kako tehnologija utiče na razvoj dečijeg mozga</h1>
+    
+          <p> Prve 3 godine života su najvažnije za razvoj dečjeg mozga i čak 80% razvoja mozga odvija se u prve 3 godine.
+            Po navodima Svetske zdravstvene organizacije i Američke asocijacije pedijatara, 
+            izlaganje dece mlađe od 18 meseci elektronskim ekranima, ima izuzetno negativan efekat na razvoj i usvajanje govora kod dece, 
+            sposobnost čitanja i razvoj kratkoročne memorije. Pored toga, dovodi do problema sa spavanjem, ponašanjem i pažnjom.</p>
+        </div>
+      </div>
+
+      <div class="prozor" id="prozor-4">
+        <div class="prelaz1"></div>
+        <div class="sadrzaj">
+          <div class="x" onclick="upala()">&times;</div>
+          <h1>Upala uha</h1>
+    
+          <p> Upala srednjeg uha je vrlo često oboljenje koje pogađa dva od tri deteta uzrasta do godinu dana. 
+              Jedno je od najčešćih oboljenja koje zahteva lečenje antibioticima. 
+              Antibiotike izbegavamo zbog pojave rezistencije i zbog različitih nezeljenih efekata antibiotika.
+              Izbegavanje boravka dece u prostorijama u kojima se puši smanjuje rizik od pojave ove bolesti.  
+
+        </p>
+        </div>
+      </div>
+      
+    <script src="java/prozori.js"></script>
+    
+    
+
+    
+</body>
+</html>

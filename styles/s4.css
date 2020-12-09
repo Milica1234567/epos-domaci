@@ -1,0 +1,291 @@
+@font-face {
+    font-family: libre;
+    src:url(../fontovi/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: satisfy;
+    src:url(../fontovi/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: gamja;
+    src:url(../fontovi/GamjaFlower-Regular.ttf);
+}
+
+@font-face{
+    font-family: paris;
+    src:url(../fontovi/Parisienne-Regular.ttf);
+}
+
+@font-face{
+    font-family: rad_med;
+    src:url(../fontovi/Rajdhani-Medium.ttf);
+}
+body{
+    /*background-color: darksalmon;*/
+    background-image: url('../slike/papir.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.naslov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    float: inline-end;
+}
+.naslov1{
+    font-family: rad_med;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+#slika_naslov1{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+
+    padding-right: 15px;
+}
+#slika_naslov2{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+#house{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#house:hover{
+    transform: scale(1.33);
+}
+#calendar{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#calendar:hover{
+    transform: scale(1.33);
+}
+#info{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#info:hover{
+    transform: scale(1.33);
+}
+#kontakt{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#kontakt:hover{
+    transform: scale(1.33);
+}
+
+.slike{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slika1{
+   padding-right: 15px;
+    flex:1;
+}
+
+.slika2{
+    padding-right: 15px;
+    flex:1;
+}
+.slika3{
+    padding-right: 15px;
+    flex:1;
+}
+.slika4{
+
+    flex:1;
+}
+.meni{
+    font-family: satisfy;
+    background-color:rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    color:whitesmoke;
+    font-size: x-large;
+    margin-top: 15px;
+    height: auto;
+}
+.opis{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dugme_meni{
+    border: transparent;
+    background-color: transparent;
+    font-family: satisfy;
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+.veliki{
+    display: flex;
+    padding-top: 30px;
+}
+#levi{
+    background-color: rgb(33, 109, 224, 0.6);
+    flex: 1;
+    margin-right: 7.5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: libre;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#desni{
+    flex: 1;
+    background-color: rgb(33, 109, 224, 0.6);
+    margin-left: 7.5px;
+    font-family: libre;
+    color: midnightblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.manji{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 109, 224, 0.4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.kalendar{
+   width: 100%;
+   height: 48rem;
+   background-color: rgb(33, 109, 224, 0.4);
+   box-shadow: 0 0.5rem 3rem rgb(0, 0, 0, 0.4);
+   border-radius: 15px;
+}
+
+.dani{
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+.dan{
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: center;
+}
+
+.datumi{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+.datumi div{
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.4rem/7);
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.datumi div:hover{
+    background-color: rgb(33, 109, 224, 0.6);
+}
+
+.prethodni{
+    opacity: 0.5;
+}
+
+.sledeci{
+    opacity: 0.5;
+}
+#zakazivanje{
+    margin-top: 15px;
+    color: white;
+}
+
+#ime{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;
+}
+#prezime{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;
+}
+#adresa{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;
+}
+#kontakt-telefon{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;
+    
+}
+
+#mejl{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;
+}
+#simptomi{
+    margin-left: 20px;
+}
+#datum1{
+    background-color: rgba(236, 238, 241, 0.7);
+    border-radius: 15px;    
+}
+#zakazi{
+    background-color: rgba(4, 50, 119, 0.932);
+    color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 70px;
+
+}
+
+#kalendaar58{
+    background-color:  rgba(4, 50, 119, 0.6);
+    border-radius: 15px;
+    width: 100%;
+    padding-top: 15px;
+    height: 100%;
+}
+.text-naslov{
+    width: 100%;
+    float: inline-start;
+}

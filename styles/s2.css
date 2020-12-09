@@ -1,0 +1,285 @@
+@font-face{
+    font-family: rad_med;
+    src:url(../fontovi/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: satisfy;
+    src:url(../fontovi/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: libre;
+    src:url(../fontovi/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: paris;
+    src:url(../fontovi/Parisienne-Regular.ttf);
+}
+@font-face {
+    font-family: gamja;
+    src:url(../fontovi/GamjaFlower-Regular.ttf);
+}
+
+
+
+body{
+    background-image: url('../slike/papir.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background: cover no-repeat;
+}
+
+.naslov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    float: inline-end;
+}
+.naslov1{
+    font-family: rad_med;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+#slika_naslov1{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+#slika_naslov2{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+#house{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#house:hover{
+    transform: scale(1.33);
+}
+#calendar{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#calendar:hover{
+    transform: scale(1.33);
+}
+#info{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#info:hover{
+    transform: scale(1.33);
+}
+#kontakt{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#kontakt:hover{
+    transform: scale(1.33);
+}
+
+.slike{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slika1{
+   padding-right: 15px;
+    flex:1;
+}
+
+.slika2{
+    padding-right: 15px;
+    flex:1;
+}
+.slika3{
+    padding-right: 15px;
+    flex:1;
+}
+.slika4{
+
+    flex:1;
+}
+.meni{
+    font-family: satisfy;
+    background-color:rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    color:whitesmoke;
+    font-size: x-large;
+    margin-top: 15px;
+    height: auto;
+}
+.opis{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#glavni{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#levi{
+    flex: 1;
+    background-color:rgb(33, 109, 224, 0.3);
+    border-radius: 15px;
+    height: auto;
+    margin-right: 7.5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+
+#slika_bio{
+    height: auto;
+    width: 260px;
+    flex: 1;
+    
+}
+
+/*#okvir{
+    /*background-color:rgb(33, 109, 224, 0.5);
+    height: 420px;
+    width: 255px;
+    margin: 0 auto;
+    border-radius: 15px;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 20px;    
+}*/
+
+#tekst{
+    flex: 1;
+    
+}
+
+#tekst1{
+    font-family: libre;
+    color: midnightblue;
+    font-size: 15px;
+}
+
+#biografija{
+    text-align: center;
+    font-family: libre;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#potpis{
+    font-size: 20px;
+    font-family: paris;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#desni{
+    flex: 1;
+    background-color:rgb(33, 109, 224, 0.3);
+    border-radius: 15px;
+    height: auto;
+    margin-left: 7.5px;
+    text-align: left;
+    width: fit-content;
+}
+
+#kontakt1{
+    text-align: left;
+    color: whitesmoke;
+    font-family: libre;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+ol{
+    font-size: 30px;
+    font-family: libre;
+    color: midnightblue;
+    margin-left: 100px;
+    
+}
+
+#contact1{
+    list-style-image: url(../slike/smartphone.png);
+}
+#contact2{
+    list-style-image: url(../slike/gmail.png);
+}
+#contact3{
+    list-style-image: url(../slike/instagram.png);
+}
+#contact4{
+    list-style-image: url(../slike/facebook.png);
+}
+
+.dugme_meni{
+  border: transparent;
+  background-color: transparent;
+  font-family: satisfy;
+  font-size: 30px;
+  color: white;
+}
+#bio-slika{
+    flex: 1;
+    text-align: center;
+}
+#dugmence{
+    text-align: right;
+    border: none;
+    margin: 40px;
+    border-radius: 15px;
+    
+
+}
+#donji{
+    display: flex;
+    justify-content: flex-end;
+}
+#hvala{
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    flex-basis: 40px;
+    
+}
+#neki{
+    font-family: gamja;
+    height: fit-content;
+    background-color: rgb(33, 109, 224, 0.8);
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    flex-basis: auto;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+

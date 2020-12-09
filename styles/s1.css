@@ -1,0 +1,182 @@
+@font-face {
+    font-family: libre;
+    src:url(../fontovi/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: satisfy;
+    src:url(../fontovi/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: gamja;
+    src:url(../fontovi/GamjaFlower-Regular.ttf);
+}
+
+@font-face{
+    font-family: paris;
+    src:url(../fontovi/Parisienne-Regular.ttf);
+}
+
+@font-face{
+    font-family: rad_med;
+    src:url(../fontovi/Rajdhani-Medium.ttf);
+}
+
+ol {
+    list-style-image: url(../slike/healthcare.png);
+}
+
+body{
+    /*background-color: darksalmon;*/
+    background-image: url('../slike/papir.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background: cover no-repeat;
+
+}
+
+.naslov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    height: auto;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.naslov1{
+    font-family: rad_med;
+    font-size: 80px;
+    text-align: center;
+    color: whitesmoke;
+    width: fit-content;
+    
+}
+
+#slika_naslov1{
+    height: 80px;
+    width: 80px;
+    flex-basis: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#slika_naslov2{
+    height: 80px;
+    width: 80px;
+    flex-basis: 80px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#house{
+    height: 180px;
+    width: 180px;
+    
+}
+#house:hover{
+    transform: scale(1.33);
+}
+#calendar{
+    height: 180px;
+    width: 180px;
+   
+}
+#calendar:hover{
+    transform: scale(1.33);
+}
+#info{
+    height: 180px;
+    width: 180px;
+   
+}
+#info:hover{
+    transform: scale(1.33);
+}
+#kontakt{
+    height: 180px;
+    width: 180px;
+    
+}
+#kontakt:hover{
+    transform: scale(1.33);
+}
+
+.slike{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+
+
+.slika1{
+    padding: 20px;
+    margin: 1em;
+    flex-basis: 180px;
+}
+
+.slika2{
+    padding: 20px;
+    margin: 1em;
+    flex-basis: 180px;
+}
+.slika3{
+    padding: 20px;
+    margin: 1em;
+    flex-basis: 180px;
+}
+.slika4{
+    padding: 20px;
+    margin: 1em;
+    flex-basis: 180px;
+}
+
+#pasus1{
+    text-align: center;
+    font-family: libre;
+    font-size: 50px;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+#pasus2{
+    text-align: center;
+    font-family: libre;
+    font-size: 35px;
+    color: midnightblue;
+}
+#lista{
+    text-align: center;
+    list-style-position: inside;
+}
+#listaa{
+    
+    font-family: gamja;
+    font-size: 22px;
+    color:midnightblue;
+}
+
+.veliki_pasus{
+    background-color:rgb(33, 109, 224, 0.3);
+    border-radius: 15px;
+    height: auto;
+}
+
+.opis{
+    text-align: center;
+    font-family: satisfy;
+    background-color:rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    color:whitesmoke;
+    font-size: larger;
+    margin-top: 22px;
+}
+
+
+
+

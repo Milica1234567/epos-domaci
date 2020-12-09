@@ -1,0 +1,293 @@
+@font-face {
+    font-family: libre;
+    src:url(../fontovi/LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: satisfy;
+    src:url(../fontovi/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: gamja;
+    src:url(../fontovi/GamjaFlower-Regular.ttf);
+}
+
+@font-face{
+    font-family: paris;
+    src:url(../fontovi/Parisienne-Regular.ttf);
+}
+
+@font-face{
+    font-family: rad_med;
+    src:url(../fontovi/Rajdhani-Medium.ttf);
+}
+body{
+    background-image: url('../slike/papir.jpg');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.naslov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    float: inline-end;
+}
+.naslov1{
+    font-family: rad_med;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+#slika_naslov1{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+
+    padding-right: 15px;
+}
+#slika_naslov2{
+    height: 50px;
+    width: 50px;
+    flex-basis: 50px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+#house{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#house:hover{
+    transform: scale(1.33);
+}
+#calendar{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#calendar:hover{
+    transform: scale(1.33);
+}
+#info{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#info:hover{
+    transform: scale(1.33);
+}
+#kontakt{
+    height: 45px;
+    width: 45px;
+    float: left;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#kontakt:hover{
+    transform: scale(1.33);
+}
+
+.slike{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slika1{
+   padding-right: 15px;
+    flex:1;
+}
+
+.slika2{
+    padding-right: 15px;
+    flex:1;
+}
+.slika3{
+    padding-right: 15px;
+    flex:1;
+}
+.slika4{
+
+    flex:1;
+}
+.meni{
+    font-family: satisfy;
+    background-color:rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    color:whitesmoke;
+    font-size: x-large;
+    margin-top: 15px;
+    height: auto;
+}
+.opis{
+    text-align: center;
+    padding-top: 10px;
+}
+#veliki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+#ishrana_slika{
+    flex:1;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
+    
+}
+#prehlada_slika{
+    flex: 1;
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
+    display: block;
+}
+#mozak_slika{
+    flex: 1;
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
+}
+#upala_slika{
+    flex: 1;
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
+}
+.slika{
+    position: relative;
+}
+
+#naslov2{
+    text-align: center;
+    color: white;
+    background-color: rgb(33, 109, 224, 0.6);
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: libre;
+    
+}
+.prelaz {
+    position: absolute;
+    margin-left: 30px;
+    bottom: 0;
+    background: rgb(41, 22, 145);
+    background: rgba(44, 55, 211, 0.5); 
+    color: #f1f1f1;
+    width: 80%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: gamja;
+    border-radius: 15px;
+  }
+.slika:hover .prelaz {
+    opacity: 1;
+}
+#dugme_ishrana{
+      border: transparent;
+      background-color: transparent;
+      color: white;
+      font-family: gamja;
+      font-size: 30px;
+}
+#dugme_prehlada{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-family: gamja;
+    font-size: 30px;
+}
+#dugme_mozak{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-family: gamja;
+    font-size: 20px;
+}
+#dugme_upala{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-family: gamja;
+    font-size: 30px;
+}
+.dugme_meni{
+    border: transparent;
+    background-color: transparent;
+    font-family: satisfy;
+    font-size: 30px;
+    color: white;
+}
+.prozor .prelaz1 {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background:rgba(253, 253, 248, 0.6);
+    z-index:1;
+    display:none;
+}
+  
+.prozor .sadrzaj {
+    position:absolute;
+    margin-top: -300px;
+    left:50%;
+    transform:translate(-50%,-50%) scale(0);
+    background: rgb(23, 23, 107, 0.8);
+    width:auto;
+    height:auto;
+    z-index:2;
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    font-family:gamja;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+}
+  
+.prozor .x{
+    cursor:pointer;
+    position:absolute;
+    right:20px;
+    top:20px;
+    width:30px;
+    height:30px;
+    background:white;
+    color:midnightblue;
+    font-size:25px;
+    font-weight:600;
+    line-height:30px;
+    text-align:center;
+    border-radius:50%;
+}
+  
+.prozor.active .prelaz1 {
+    display:block;
+}
+  
+.prozor.active .sadrzaj {
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+  
+

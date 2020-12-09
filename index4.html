@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakazivanje</title>
+    <link rel="stylesheet" href="styles/s4.css">
+</head>
+<body>
+
+    <script src="js/javascript.js"></script>
+
+    <div class="naslov">
+        <div>
+            <img id="slika_naslov1" src="slike/pediatrician.png">
+        </div>
+        <div class="naslov1">
+            MedicaMea
+        </div>
+        <div>
+            <img id="slika_naslov2" src="slike/stetoskop_srce.png">
+        </div>
+
+    </div>
+    <div class="slike">
+        <div class="slika1">
+            
+            <div class="meni"><img id="house" src="slike/house.png" alt="pocetna"><div class="opis">
+                <a href="index.html"><button class="dugme_meni"><div class="text-naslov">Početna</div></button></a></div></div>
+        </div>
+        <div class="slika2">
+            
+            <div class="meni"><img id="calendar" src="slike/calendar.png" alt="zakazivanje"><div class="opis">
+                <a href="index4.html"><button class="dugme_meni"><div class="text-naslov">Zakazivanje</div></button></a> </div></div>
+        </div>
+        <div class="slika3">
+           
+            <div class="meni"> <img id="info" src="slike/info.png" alt="saveti roditeljima"><div class="opis">
+                <a href="index3.html"><button class="dugme_meni"><div class="text-naslov">Saveti roditeljima</div></button></a> </div></div>
+        </div>
+        <div class="slika4">
+           
+            <div class="meni"><img id="kontakt" src="slike/kontakt.png" alt="kontakt"><div class="opis">
+                <a href="index2.html"><button class="dugme_meni"><div class="text-naslov">Kontakt</div></button></a></div></div>
+        </div>
+
+    </div>
+
+</div>  
+<div class="veliki">
+     <div id="levi">
+        <div><iframe  src="https://calendar.google.com/calendar/embed?src=b72518onqud8937vv3ho6a7ff8%40group.calendar.google.com&ctz=Europe%2FBelgrade" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></div>
+         </div>
+         
+    
+
+     <div id="desni">
+         <div class="forma">
+             <h1 id="zakazivanje">Zakažite svoj termin</h1>
+            <form name="forma" onsubmit="return formaIme()" method="post" >
+            <label for="ime">Ime: </label><br>
+            <input type="text"  id="ime" name="ime" pattern="[^0-9]+"><br><br>
+            <label for="prezime">Prezime: </label><br>
+            <input type="text" id="prezime" name="prezime" pattern="[^0-9]+"><br><br>
+            <label for="adresa">Adresa: </label><br>
+            <input type="text" name="adresa" id="adresa"><br><br>
+            <label for="kontakt-telefon">Kontakt telefon: </label><br>
+            <input type="text" name="kontakt-telefon" id="kontakt-telefon" pattern="[^a-zA-Z]+"><br><br>
+            <label for="mejl">Mejl adresa: </label><br>
+            <input type="text" name="mejl" id="mejl"><br><br><br>
+
+        
+            <input type="radio" id="stari-pacijanti" name="pacijent" value="Stari">
+            <label for="stari-pacijanti"> Ja sam stari pacijent</label><br>
+            <input type="radio" id="novi-pacijent" name="pacijent" value="Novi">
+            <label for="novi-pacijent"> Ja sam novi pacijent</label><br><br>
+                <p id="simptomi">Simptomi: </p>
+            <input type="checkbox" id="temperatura" name="temperatura" value="Temperatura">
+            <label for="temperatura"> Temperatura</label><br>
+            <input type="checkbox" id="kasalj" name="kasalj" value="Kasalj">
+            <label for="kasalj"> Kašalj</label><br>
+            <input type="checkbox" id="curenje-nosa" name="curenje-nosa" value="Curenje-nosa">
+            <label for="curenje-nosa"> Curenje nosa</label><br>
+            <input type="checkbox" id="bol-stomak" name="bol-stomak" value="Bol-stomak">
+            <label for="bol-stomak"> Bol u stomaku</label><br>
+            <input type="checkbox" id="bol-uho" name="bol-uho" value="Bol-uho">
+            <label for="bol-uho"> Bol u uhu</label><br><br>
+
+            <label for="godine">Godine deteta:</label>
+            <select name="godine" id="godine">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+
+            </select> <br><br>
+                
+               
+            <label for="" name>Datum:</label>
+            <input type="date" id="datum1" name="datum"><br><br>
+            <input type="submit" value="Zakaži" id="zakazi">
+            
+            
+        </form>
+    </div>
+    </div>
+</div>
+    <script src="java/calendar.js"></script>
+    <script src="java/forma.js"></script>
+</body>
+
+
+</body>
+</html>
